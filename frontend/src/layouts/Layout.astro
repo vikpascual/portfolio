@@ -1,0 +1,24 @@
+---
+interface Props {
+	title: string;
+	language: string
+}
+
+const { title, language } = Astro.props;
+---
+
+<!doctype html>
+<html lang={language}>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Víctor Pascual portfolio" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<script is:inline src="/js/theme.js"></script>
+	</head>
+	<body class="px-64 py-4 dark:text-white dark:bg-slate-950">
+		<slot />
+	</body>
+</html>

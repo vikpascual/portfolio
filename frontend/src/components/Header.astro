@@ -1,0 +1,25 @@
+---
+interface Props{
+    selected_language: String
+}
+
+const { selected_language } = Astro.props;
+const es_class = selected_language == "es" ? "text-white bg-slate-950 rounded dark:bg-white dark:text-black"  : ""
+const en_class = selected_language == "en" ? "text-white bg-slate-950 rounded dark:bg-white dark:text-black"  : ""
+
+---
+<header>
+    <div class="flex justify-between">
+        <div class="text-3xl font-bold">Welcome to Astro</div>
+        <div>
+            <div class="flex gap-4">
+                <div>
+                    <button class="rounded" id="ligth-theme-button">Ligth</button> / <button class="rounded" id="dark-theme-button">Dark</button>
+                </div>
+                <div>
+                    <a href="/es" class={es_class}>ES</a> / <a href="/en" class={en_class}>EN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
