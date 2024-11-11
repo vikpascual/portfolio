@@ -1,0 +1,19 @@
+{
+    "lichess_bot":{
+        "title":"Lichess BOT",
+        "image":"lichess_bot.png",
+        "description":"Programa desarrollado en Python y JS que juega al ajedrez de forma automatica en la plataforma lichess",
+        "tags":["python", "sqlite","js","html"],
+        "complexity": 2,
+        "year": 2022
+    },
+    "admin_oasis":{
+        "title":"Admin Oasis",
+        "image":"admin_oasis.png",
+        "description":"El objetivo de este proyecto es centralizar la mayor parte posible de la administración y monitorización de los equipos de la empresa, así como un registro de incidencias desde una única aplicación web. De esta forma es bastante más fácil para el administrador acceder a los equipos, comprobar que funcionan correctamente y en caso de que se descubra un equipo que no está funcionando correctamente brindarle al administrador las herramientas necesarias para solucionarlo.",
+        "tags":["php", "jquery","mysql","snmp","ldap","js","html","css"],
+        "complexity": 3,
+        "year": 2022
+    }
+    
+}

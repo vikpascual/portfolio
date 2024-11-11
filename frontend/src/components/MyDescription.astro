@@ -1,0 +1,20 @@
+---
+import translations from '../util/translations.json';
+
+interface Props{
+    selected_language: String
+}
+
+const { selected_language } = Astro.props;
+---
+<section>
+    <article class="grid grid-cols-12">
+        <div class="rounded-full overflow-hidden col-span-2">
+            <img class="rounded-full" src="/img/picofme.png" alt="Imagen de mi cara">
+        </div>
+        <div class="col-span-10 px-2">
+            <h2 class="text-2xl">Software developer</h2>
+            <p>{translations[selected_language]['my_description_p1']}</p>
+        </div>
+    </article>
+</section>

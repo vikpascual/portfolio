@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
 import Header from '../../components/Header.astro';
+import MyDescription from '../../components/MyDescription.astro';
 
 const default_language = "es"
 ---
@@ -9,6 +10,6 @@ const default_language = "es"
 <Layout title="Portfolio" language={default_language}>
 	<Header selected_language={default_language}></Header>
 	<main>
-	
+		<MyDescription selected_language={default_language}></MyDescription>	
 	</main>
 </Layout>

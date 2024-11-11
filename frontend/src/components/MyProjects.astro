@@ -1,0 +1,20 @@
+---
+import ProjectCard from "./ProjectCard.astro";
+import projects from "../util/projects.json";
+---
+
+<section>
+    <h2 class=" text-center mb-2 text-3xl font-bold">Proyectos</h2>
+    <hr class="mb-8"></hr>
+    {Object.keys(projects).map((key)=>{
+        return <ProjectCard 
+        image_url={projects[key].image} 
+        title={projects[key].title} 
+        description={projects[key].description}
+        tags={projects[key].tags}
+        complexity={projects[key].complexity}
+        year={projects[key].year}
+        />
+    })}
+    
+</section>

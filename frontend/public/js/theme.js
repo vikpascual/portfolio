@@ -9,11 +9,11 @@ function setTheme(){
         )
 
     if(localStorage.theme === 'dark' || (!('theme' in localStorage) && (window.matchMedia('(prefers-color-scheme: dark)').matches))){
-        dark_theme_button.className = "rounded dark:bg-white dark:text-black"
-        light_theme_button.className = "dark:text-white"
+        dark_theme_button.className = "p-2 rounded dark:bg-white dark:text-black"
+        light_theme_button.className = "p-2 dark:text-white"
     }else if(localStorage.theme === 'light'){
-        dark_theme_button.className = ""
-        light_theme_button.className = "rounded text-white bg-slate-950"
+        dark_theme_button.className = "p-2"
+        light_theme_button.className = "p-2 rounded text-white bg-slate-950"
     }
 }
 window.onload = function(){
