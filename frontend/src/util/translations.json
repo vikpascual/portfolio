@@ -1,11 +1,46 @@
 {
-    "es":{
-        "my_description_p1":"Curabitur nec sapien facilisis, bibendum ipsum ut, pretium nisl. Vivamus hendrerit lorem odio. Nam tempor est vulputate, bibendum dolor nec, viverra tortor. In ut finibus est. Donec hendrerit rutrum turpis id placerat. Curabitur suscipit faucibus felis ut semper. Ut tristique volutpat ante vel lobortis. Proin turpis sapien, imperdiet nec lorem vitae, accumsan condimentum neque. Aliquam erat volutpat.",
-        "my_description_p2":"Curabitur nec sapien facilisis, bibendum ipsum ut, pretium nisl. Vivamus hendrerit lorem odio. Nam tempor est vulputate, bibendum dolor nec, viverra tortor. In ut finibus est. Donec hendrerit rutrum turpis id placerat. Curabitur suscipit faucibus felis ut semper. Ut tristique volutpat ante vel lobortis. Proin turpis sapien, imperdiet nec lorem vitae, accumsan condimentum neque. Aliquam erat volutpat."
+    "es": {
+        "my_description_p1": "Curabitur nec sapien facilisis, bibendum ipsum ut, pretium nisl. Vivamus hendrerit lorem odio. Nam tempor est vulputate, bibendum dolor nec, viverra tortor. In ut finibus est. Donec hendrerit rutrum turpis id placerat. Curabitur suscipit faucibus felis ut semper. Ut tristique volutpat ante vel lobortis. Proin turpis sapien, imperdiet nec lorem vitae, accumsan condimentum neque. Aliquam erat volutpat.",
+        "my_description_p2": "Curabitur nec sapien facilisis, bibendum ipsum ut, pretium nisl. Vivamus hendrerit lorem odio. Nam tempor est vulputate, bibendum dolor nec, viverra tortor. In ut finibus est. Donec hendrerit rutrum turpis id placerat. Curabitur suscipit faucibus felis ut semper. Ut tristique volutpat ante vel lobortis. Proin turpis sapien, imperdiet nec lorem vitae, accumsan condimentum neque. Aliquam erat volutpat.",
+        "admin_oasis_title": "Admin Oasis",
+        "admin_oasis_description": "El objetivo de este proyecto es centralizar la mayor parte posible de la administración y monitorización de los equipos de la empresa, así como el registro de incidencias, desde una única aplicación web. De esta forma, es mucho más fácil para el administrador acceder a los equipos, comprobar que funcionan correctamente y, en caso de que se descubra un equipo que no esté funcionando adecuadamente, brindarle al administrador las herramientas necesarias para solucionarlo.",
+        "q_learning_pong_title": "Q-Learning (IA) PONG",
+        "q_learning_pong_description": "El juego de Pong implementado con 2 agentes controlados por inteligencia artificial. Ambos agentes trabajan juntos de manera cooperativa para evitar que la pelota pase de largo. Utilizamos el algoritmo Q-Learning para entrenar a los agentes en este juego. Para la comunicación de los agentes se ha utilizado una arquitectura cliente-servidor mediante sockets TCP.",
+        "space_simulator_title": "Simulador vuelo espacial",
+        "space_simulator_description": "Simulador de vuelo utilizando C++ y OpenGL. Física, iluminación y navegación realizadas mediante operaciones con matrices vectoriales.",
+        "planet_laser_locator_title": "Localizador planetas láser",
+        "planet_laser_locator_description": "Proyecto desarrollado en Python y Arduino. Se consulta la API Horizons de la NASA para obtener el ángulo de elevación en el cielo y la dirección respecto a las coordenadas magnéticas del cuerpo celeste elegido. Una vez obtenida esta información, se envía a Arduino mediante una conexión serial y mueve los motores en consecuencia.",
+        "lichess_bot_title": "Lichess BOT",
+        "lichess_bot_description": "Programa desarrollado en Python y JS que juega al ajedrez de forma automática en la plataforma Lichess.",
+        
+        "experience_1_company": "Instituto de Ingeniería Energética (IIE) - Universitat Politècnica de Valencia",
+        "experience_1_position": "Ingeniero Técnico de investigación - Infraestructura para el Autoabastecimiento Eléctrico Sostenible con Fuentes Renovables del Municipio Aras de los Olmos (TED2021-130464B-I00)",
+        "experience_1_description": "Desarrollo de aplicaciones web, diseño e implementación de APIs, algoritmia, diseño de base de datos, scripting y despliegue de aplicaciones.",
+        
+        "experience_2_company": "ODEC CENTRO DE CÁLCULO Y APLICACIONES INFORMÁTICAS, S.A.",
+        "experience_2_position": "Administrador de sistemas en formación dual",
+        "experience_2_description": "Mantenimiento frontend de varias webs, administración Windows Server y Active Directory, monitorización de la red local, solución de incidencias, configuración e instalación de RACK, instalación de equipos, ciberseguridad, creación de estrategias de copias de seguridad."
     },
-    "en":{
-        "my_description_p1":"Curabitur nec sapien facilisis, bibendum ipsum ut, pretium nisl. Vivamus hendrerit lorem odio. Nam tempor est vulputate, bibendum dolor nec, viverra tortor. In ut finibus est. Donec hendrerit rutrum turpis id placerat. Curabitur suscipit faucibus felis ut semper. Ut tristique volutpat ante vel lobortis. Proin turpis sapien, imperdiet nec lorem vitae, accumsan condimentum neque. Aliquam erat volutpat.",
-        "my_description_p2":"Curabitur nec sapien facilisis, bibendum ipsum ut, pretium nisl. Vivamus hendrerit lorem odio. Nam tempor est vulputate, bibendum dolor nec, viverra tortor. In ut finibus est. Donec hendrerit rutrum turpis id placerat. Curabitur suscipit faucibus felis ut semper. Ut tristique volutpat ante vel lobortis. Proin turpis sapien, imperdiet nec lorem vitae, accumsan condimentum neque. Aliquam erat volutpat."
-    }
+    "en": {
+        "my_description_p1": "Curabitur nec sapien facilisis, bibendum ipsum ut, pretium nisl. Vivamus hendrerit lorem odio. Nam tempor est vulputate, bibendum dolor nec, viverra tortor. In ut finibus est. Donec hendrerit rutrum turpis id placerat. Curabitur suscipit faucibus felis ut semper. Ut tristique volutpat ante vel lobortis. Proin turpis sapien, imperdiet nec lorem vitae, accumsan condimentum neque. Aliquam erat volutpat.",
+        "my_description_p2": "Curabitur nec sapien facilisis, bibendum ipsum ut, pretium nisl. Vivamus hendrerit lorem odio. Nam tempor est vulputate, bibendum dolor nec, viverra tortor. In ut finibus est. Donec hendrerit rutrum turpis id placerat. Curabitur suscipit faucibus felis ut semper. Ut tristique volutpat ante vel lobortis. Proin turpis sapien, imperdiet nec lorem vitae, accumsan condimentum neque. Aliquam erat volutpat.",
+        "admin_oasis_title": "Admin Oasis",
+        "admin_oasis_description": "The objective of this project is to centralize as much of the administration and monitoring of the company's equipment as possible, as well as incident logging, through a single web application. This way, it is much easier for the administrator to access the equipment, verify that it is working correctly, and, in case a malfunctioning device is detected, provide the administrator with the necessary tools to resolve it.",
+        "q_learning_pong_title": "Q-Learning (AI) PONG",
+        "q_learning_pong_description": "The Pong game implemented with two AI-controlled agents. Both agents work together cooperatively to prevent the ball from passing through. We use the Q-Learning algorithm to train the agents in this game. For agent communication, a client-server architecture was implemented using TCP sockets.",
+        "space_simulator_title": "Space Flight Simulator",
+        "space_simulator_description": "Flight simulator using C++ and OpenGL. Physics, lighting, and navigation are achieved through vector matrix operations.",
+        "planet_laser_locator_title": "Planet Laser Locator",
+        "planet_laser_locator_description": "Project developed with Python and Arduino. The NASA Horizons API is queried to obtain the elevation angle in the sky and direction relative to the magnetic coordinates of the selected celestial body. Once this information is obtained, it is sent to Arduino via a serial connection to move the motors accordingly.",
+        "lichess_bot_title": "Lichess BOT",
+        "lichess_bot_description": "Program developed in Python and JS that plays chess automatically on the Lichess platform.",
 
+        "experience_1_company": "Institute of Energy Engineering (IIE) - Universitat Politècnica de València",
+        "experience_1_position": "Research Technical Engineer - Infrastructure for Sustainable Electric Self-Supply with Renewable Sources in the Municipality of Aras de los Olmos (TED2021-130464B-I00)",
+        "experience_1_description": "Development of web applications, API design and implementation, algorithms, database design, scripting, and application deployment.",
+        
+        "experience_2_company": "ODEC CENTER FOR CALCULATION AND COMPUTER APPLICATIONS, S.A.",
+        "experience_2_position": "System Administrator in Dual Training",
+        "experience_2_description": "Frontend maintenance of various websites, Windows Server and Active Directory administration, local network monitoring, troubleshooting, RACK setup and installation, equipment installation, cybersecurity, and creation of backup strategies."
+    }
 }
