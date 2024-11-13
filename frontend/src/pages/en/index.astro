@@ -4,6 +4,7 @@ import Card from '../../components/Card.astro';
 import Header from '../../components/Header.astro';
 import MyDescription from '../../components/MyDescription.astro';
 import MyProjects from '../../components/MyProjects.astro';
+import Experience from '../../components/Experience.astro';
 
 const default_language = "en"
 ---
@@ -11,7 +12,8 @@ const default_language = "en"
 <Layout title="Portfolio" language={default_language}>
 	<Header selected_language={default_language}></Header>
 	<main>
-		<MyDescription selected_language={default_language}></MyDescription>	
+		<MyDescription selected_language={default_language}></MyDescription>
+		<Experience></Experience>
 		<MyProjects></MyProjects>
 	</main>
 </Layout>
