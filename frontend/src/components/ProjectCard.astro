@@ -4,10 +4,9 @@ interface Props{
     title: string
     description: string
     tags: Array<string>
-    complexity: number
     year: number
 }
-const { image_url, title, description,tags, complexity, year } = Astro.props;
+const { image_url, title, description,tags, year } = Astro.props;
 
 ---
 <article class="grid grid-cols-3 gap-4 mt-4 dark:bg-red-900	">

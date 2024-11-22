@@ -1,11 +1,18 @@
 ---
 import ProjectCard from "./ProjectCard.astro";
-import projects from "../util/projects.json";
-import translations from '../util/translations.json';
+import projects_data from "../util/projects.json"; 
+
+import translations_data from '../util/translations.json';
+import type { Translations, Projects } from "../util/interfaces";
+
+type Language = keyof Translations;
 
 interface Props{
-    selected_language: String
+    selected_language: Language
 }
+
+const translations: Translations = translations_data
+const projects: Projects = projects_data
 
 const { selected_language } = Astro.props;
 ---
@@ -13,15 +20,14 @@ const { selected_language } = Astro.props;
 <section>
     <h2 class=" text-center mb-2 text-3xl font-bold">{selected_language == 'es' ? 'Proyectos' : "Projects"}</h2>
     <hr class="mb-8"></hr>
-    {Object.keys(projects).map((key)=>{
+    {(Object.keys(projects) as (keyof Projects)[]).map((key) => {
         return <ProjectCard 
-        image_url={projects[key].image} 
-        title={translations[selected_language][projects[key].title]} 
-        description={translations[selected_language][projects[key].description]}
-        tags={projects[key].tags}
-        complexity={projects[key].complexity}
-        year={projects[key].year}
-        />
+            image_url={projects[key].image} 
+            title={translations[selected_language][projects[key].title]} 
+            description={translations[selected_language][projects[key].description]}
+            tags={projects[key].tags}
+            year={projects[key].year}
+        />;
     })}
     
 </section>

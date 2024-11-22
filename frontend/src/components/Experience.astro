@@ -1,11 +1,15 @@
 ---
-import translations from '../util/translations.json';
+import translations_data from '../util/translations.json';
 
+import type { Translations } from "../util/interfaces";
+
+type Language = keyof Translations;
 interface Props{
-    selected_language: String
+    selected_language: Language
 }
 
 const { selected_language } = Astro.props;
+const translations: Translations = translations_data
 
 ---
 <section>
