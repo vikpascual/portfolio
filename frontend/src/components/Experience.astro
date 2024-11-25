@@ -12,34 +12,33 @@ const { selected_language } = Astro.props;
 const translations: Translations = translations_data
 
 ---
-<section>
-    <h2 class="text-3xl font-bold text-center mb-4">{selected_language == 'es' ? 'Experiencia laboral' : "Work Experience"}</h2>
-    <hr/>
-    <article class="grid grid-cols-12 gap-4 mt-8">
-        <div class="col-span-1 border-e-2 border-e-white text-center block">
+<section >
+    <h2 class="text-5xl font-bold text-center mb-4 dark:text-amber-100 ">{selected_language == 'es' ? 'Experiencia laboral' : "Work Experience"}</h2>
+    <article class="grid grid-cols-12 gap-4 mt-8 border-4 border-b-4 border-black rounded-t-2xl p-6  dark:bg-white dark:text-black">
+        <div class="col-span-2 border-e-2 border-e-white text-center block">
             <img src="/img/logo_iie.svg" alt=""><br/>
             <span>2024-12</span><br/>
             <span>|</span><br/>
             <span>2022-12</span>
         </div>
-        <div class="col-span-11">
-            <h3 class="text-2xl font-bold">{translations[selected_language]['experience_1_company']}</h3>
-            <h2 class="text-xl font-bold mt-2 mb-2">{translations[selected_language]["experience_1_position"]}</h2>
+        <div class="col-span-10">
+            <h3 class="text-3xl font-bold">{translations[selected_language]['experience_1_company']}</h3>
+            <h2 class="text-2xl font-bold mt-2 mb-2">{translations[selected_language]["experience_1_position"]}</h2>
             <p>{translations[selected_language]["experience_1_description"]}</p>
             <p>Link de interes: <a href="https://inasolar.es/desarrollo/">https://inasolar.es/desarrollo/</a></p>
             <p>Tecnologias empleadas: Python, FastAPI, DASH, Numpy, Pandas, NodeJS, EJS, ElectronJS, Bootstrap, SQL Server, GitHub</p>
         </div>
     </article>
-    <article class="grid grid-cols-12 gap-4 mt-8">
-        <div class="col-span-1 border-e-2 border-e-white text-center block">
-            <img class="w-18" src="/img/odec_logo.png" alt=""><br/>
+    <article class="grid grid-cols-12 gap-4 border-4 border-t-0 border-black rounded-b-2xl p-6 dark:bg-amber-100 text-black">
+        <div class="col-span-2 border-e-2 border-e-white text-center block">
+            <img class="w-1/2" src="/img/odec_logo.png" alt=""><br/>
             <span>2020-05</span><br/>
             <span>|</span><br/>
             <span>2019-09</span>
         </div>
-        <div class="col-span-11">
-            <h3 class="text-2xl font-bold">{translations[selected_language]['experience_2_company']}</h3>
-            <h2 class="text-xl font-bold mt-2 mb-2">{translations[selected_language]["experience_2_position"]}</h2>
+        <div class="col-span-10">
+            <h3 class="text-3xl font-bold">{translations[selected_language]['experience_2_company']}</h3>
+            <h2 class="text-2xl font-bold mt-2 mb-2">{translations[selected_language]["experience_2_position"]}</h2>
             <p>{translations[selected_language]["experience_2_description"]}</p>
             <p>Tecnologias empleadas: Linux, Windows Server, WMI, SNMP, TheDude, SolarWinds, VMware vSphere, VMware ESX, Backups</p>
         </div>

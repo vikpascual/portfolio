@@ -4,8 +4,8 @@ interface Props{
 }
 
 const { selected_language } = Astro.props;
-const es_class = selected_language == "es" ? "p-2 text-white bg-slate-950 rounded dark:bg-white dark:text-black"  : "p-2 "
-const en_class = selected_language == "en" ? "p-2 text-white bg-slate-950 rounded dark:bg-white dark:text-black"  : "p-2 "
+const es_class = selected_language == "es" ? "p-2 text-white bg-stone-800 rounded  dark:bg-white dark:text-black"  : "p-2 "
+const en_class = selected_language == "en" ? "p-2 text-white bg-stone-800 rounded  dark:bg-white dark:text-black"  : "p-2 "
 
 ---
 <header>
@@ -19,6 +19,7 @@ const en_class = selected_language == "en" ? "p-2 text-white bg-slate-950 rounde
                 <div class="align-middle">
                     <button class={es_class}><a href="/es">ES</a></button> / <button class={en_class}><a href="/en" >EN</a></button>
                 </div>
+                
             </div>
         </div>
     </div>

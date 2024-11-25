@@ -13,7 +13,7 @@ function setTheme(){
         light_theme_button.className = "p-2 dark:text-white"
     }else if(localStorage.theme === 'light'){
         dark_theme_button.className = "p-2"
-        light_theme_button.className = "p-2 rounded text-white bg-slate-950"
+        light_theme_button.className = "p-2 rounded text-white bg-stone-800"
     }
 }
 window.onload = function(){
@@ -29,4 +29,3 @@ window.onload = function(){
 
     })
 }
-

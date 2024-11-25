@@ -18,15 +18,15 @@ const { selected_language } = Astro.props;
 ---
 
 <section>
-    <h2 class=" text-center mb-2 text-3xl font-bold">{selected_language == 'es' ? 'Proyectos' : "Projects"}</h2>
-    <hr class="mb-8"></hr>
-    {(Object.keys(projects) as (keyof Projects)[]).map((key) => {
+    <h2 class="text-5xl font-bold text-center mb-8 mt-4 dark:text-amber-100">{selected_language == 'es' ? 'Proyectos' : "Projects"}</h2>
+    {(Object.keys(projects) as (keyof Projects)[]).map((key,index) => {
         return <ProjectCard 
             image_url={projects[key].image} 
             title={translations[selected_language][projects[key].title]} 
             description={translations[selected_language][projects[key].description]}
             tags={projects[key].tags}
             year={projects[key].year}
+            index={index}
         />;
     })}
     

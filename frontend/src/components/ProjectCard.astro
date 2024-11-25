@@ -5,11 +5,19 @@ interface Props{
     description: string
     tags: Array<string>
     year: number
-}
-const { image_url, title, description,tags, year } = Astro.props;
+    index: number
 
+}
+const { image_url, title, description,tags, year,index } = Astro.props;
+let background = ((index+1) % 2) == 0 ? 'dark:bg-amber-100':' dark:bg-white'
+if(index == 0){
+    background += ' rounded-t-2xl'
+}
+
+console.log(background)
 ---
-<article class="grid grid-cols-3 gap-4 mt-4 dark:bg-red-900	">
+
+<article class={"grid grid-cols-3 gap-4 border-4 border-b-2  border-black p-6 dark:text-black " + background}>
     <div>
         <img src={"/img/"+image_url} alt="">
     </div>
@@ -18,6 +26,7 @@ const { image_url, title, description,tags, year } = Astro.props;
         <p>{description}</p>
         <p class="mt-2 flex flex-wrap gap-4">
         {tags.map((image_name)=>{
+
             return <img src={"/img/icons/"+image_name+".svg"} class="w-12 h-12" alt={image_name+" icon"}/>
         })}
         </p>
