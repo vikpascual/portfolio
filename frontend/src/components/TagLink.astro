@@ -1,0 +1,15 @@
+---
+import svg from '../svg/github.svg'
+
+interface Props{
+    text: string
+    link: string
+    icon: string
+}
+const { text, link, icon } = Astro.props;
+---
+<a class="w-auto align-middle" href={link}>
+    <div class="bg-amber-200 border-4 border-black p-1 rounded-xl text-center text-black w-full align-middle">
+        <img src={icon} class="inline w-5 h-5 align-middle"><span class="align-middle"> {text}</span>
+    </div>
+</a>

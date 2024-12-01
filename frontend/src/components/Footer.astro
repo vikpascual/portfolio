@@ -1,0 +1,16 @@
+---
+import TagLink from "./TagLink.astro"
+
+const year = new Date().getFullYear()
+---
+<footer class="mt-28 text-xl">
+    <div class="flex flex-col justify-center text-center justify-self-center">
+        <div class="flex gap-4">
+            <div class="w-32"><TagLink text="Github" link="https://github.com/vikpascual" icon="/img/icons/github.svg"></TagLink></div>
+            <div class="w-32"><TagLink text="Linkedin" link="https://www.linkedin.com/in/v%C3%ADctor-pascual-mu%C3%B1oz-48177111a" icon="/img/icons/linkedin.svg"></TagLink></div>
+        </div>
+        
+        <div><p class="w-full row-start-2">Copyright © <a class="underline" href="https://github.com/vikpascual">vikpascual</a> {year}</p></div>
+      </div>
+
+</footer>

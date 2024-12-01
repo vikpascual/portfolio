@@ -9,7 +9,7 @@ function setTheme(){
         )
 
     if(localStorage.theme === 'dark' || (!('theme' in localStorage) && (window.matchMedia('(prefers-color-scheme: dark)').matches))){
-        dark_theme_button.className = "p-2 rounded dark:bg-white dark:text-black"
+        dark_theme_button.className = "p-2 rounded dark:bg-amber-200 dark:text-black"
         light_theme_button.className = "p-2 dark:text-white"
     }else if(localStorage.theme === 'light'){
         dark_theme_button.className = "p-2"

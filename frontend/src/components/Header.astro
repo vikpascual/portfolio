@@ -4,13 +4,12 @@ interface Props{
 }
 
 const { selected_language } = Astro.props;
-const es_class = selected_language == "es" ? "p-2 text-white bg-stone-800 rounded  dark:bg-white dark:text-black"  : "p-2 "
-const en_class = selected_language == "en" ? "p-2 text-white bg-stone-800 rounded  dark:bg-white dark:text-black"  : "p-2 "
+const es_class = selected_language == "es" ? "p-2 px-4 text-white bg-stone-800 rounded  dark:bg-amber-200 dark:text-black"  : "p-2 px-4 "
+const en_class = selected_language == "en" ? "p-2 px-4 text-white bg-stone-800 rounded  dark:bg-amber-200 dark:text-black"  : "p-2 px-4"
 
 ---
 <header>
-    <div class="flex justify-between">
-        <div class="text-3xl font-bold">Welcome to Astro</div>
+    <div class="flex justify-end">
         <div>
             <div class="flex gap-4">
                 <div>

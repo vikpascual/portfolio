@@ -1,6 +1,7 @@
 ---
 import translations_data from '../util/translations.json';
 import type { Translations } from "../util/interfaces";
+import TagLink from './TagLink.astro';
 
 type Language = keyof Translations;
 interface Props{
@@ -17,8 +18,14 @@ const translations: Translations = translations_data
             <img class="rounded-full" src="/img/picofme.png" alt="Imagen de mi cara">
         </div>
         <div class="col-span-10 px-2">
-            <h2 class="text-2xl">Software developer</h2>
-            <p>{translations[selected_language]['my_description_p1']}</p>
+            <h2 class="text-3xl font-bold dark:text-amber-200">Software developer</h2>
+            <p><Fragment set:html={translations[selected_language]['my_description_p1']} /></p><br/>
+            <p>{translations[selected_language]['my_description_p2']}</p>
+            <div class="flex gap-4 mt-4">
+                <div class="w-32"><TagLink text="Github" link="https://github.com/vikpascual" icon="/img/icons/github.svg"></TagLink></div>
+                <div class="w-32"><TagLink text="Linkedin" link="https://www.linkedin.com/in/v%C3%ADctor-pascual-mu%C3%B1oz-48177111a" icon="/img/icons/linkedin.svg"></TagLink></div>
+                <div class="w-32"><TagLink text="CV" link="https://github.com/vikpascual" icon="/img/icons/pdf.svg"></TagLink></div>
+            </div>
         </div>
     </article>
 </section>
