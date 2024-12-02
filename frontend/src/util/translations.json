@@ -2,6 +2,8 @@
     "es": {
         "my_description_p1": "Mis habilidades abarcan desde la programación y diseño de aplicaciones web hasta la administración de sistemas, utilizando tecnologías como <span class='font-bold dark:text-amber-200'>Python</span>, <span class='font-bold dark:text-amber-200'>FastAPI</span>, <span class='font-bold dark:text-amber-200'>NodeJS</span>, <span class='font-bold dark:text-amber-200'>SQL Server</span>, y más.",
         "my_description_p2": "Valoro los retos técnicos y siempre busco soluciones eficientes que aporten valor a los proyectos en los que participo.",
+        "inasolar_title": "Inasolar",
+        "inasolar_description": "Aplicacion para gestionar la instalacion de distintas fuentes renovables, asi como predecir la demanda electrica y actuar en consecuencia.",
         "admin_oasis_title": "Admin Oasis",
         "admin_oasis_description": "El objetivo de este proyecto es centralizar la mayor parte posible de la administración y monitorización de los equipos de la empresa, así como el registro de incidencias, desde una única aplicación web. De esta forma, es mucho más fácil para el administrador acceder a los equipos, comprobar que funcionan correctamente y, en caso de que se descubra un equipo que no esté funcionando adecuadamente, brindarle al administrador las herramientas necesarias para solucionarlo.",
         "q_learning_pong_title": "Q-Learning (IA) PONG",
@@ -15,7 +17,7 @@
         
         "experience_1_company": "Instituto de Ingeniería Energética (IIE) - Universitat Politècnica de Valencia",
         "experience_1_position": "Ingeniero Técnico de investigación - Infraestructura para el Autoabastecimiento Eléctrico Sostenible con Fuentes Renovables del Municipio Aras de los Olmos (TED2021-130464B-I00)",
-        "experience_1_description": "Desarrollo de aplicaciones web, diseño e implementación de APIs, algoritmica, diseño y gestión de base de datos, scripting y despliegue de aplicaciones.",
+        "experience_1_description": "Programación  y  Control de distintas fuentes renovables (solar, eólica, etc..) para su integración en la red. Desarrollo de aplicaciones web, diseño e implementación de APIs, algoritmica, diseño y gestión de base de datos, scripting y despliegue de aplicaciones.",
         
         "experience_2_company": "ODEC CENTRO DE CÁLCULO Y APLICACIONES INFORMÁTICAS, S.A.",
         "experience_2_position": "Administrador de sistemas en formación dual",
@@ -24,6 +26,8 @@
     "en": {
         "my_description_p1": "My skills range from programming and designing web applications to systems administration, using technologies such as <span class='font-bold dark:text-amber-200'>Python</span>, <span class='font-bold dark:text-amber-200'>FastAPI</span>, <span class='font-bold dark:text-amber-200'>NodeJS</span>, <span class='font-bold dark:text-amber-200'>SQL Server</span>, and more.",
         "my_description_p2": "I value technical challenges and always strive to find efficient solutions that add value to the projects I am involved in.",
+        "inasolar_title": "Inasolar",
+        "inasolar_description": "Application to manage the installation of different renewable sources, as well as predict the electrical demand and act accordingly.",
         "admin_oasis_title": "Admin Oasis",
         "admin_oasis_description": "The objective of this project is to centralize as much of the administration and monitoring of the company's equipment as possible, as well as incident logging, through a single web application. This way, it is much easier for the administrator to access the equipment, verify that it is working correctly, and, in case a malfunctioning device is detected, provide the administrator with the necessary tools to resolve it.",
         "q_learning_pong_title": "Q-Learning (AI) PONG",

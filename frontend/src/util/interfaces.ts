@@ -12,6 +12,7 @@ export interface Project {
     title: string  ; // Solo claves válidas de LocalizationData
     description: string; // Solo claves válidas de LocalizationData
     tags: string[];
+    tags_text: string[];
     year: number;
 }
 

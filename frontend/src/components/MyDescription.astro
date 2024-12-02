@@ -14,14 +14,15 @@ const translations: Translations = translations_data
 ---
 <section>
     <article class="grid grid-cols-12">
-        <div class="rounded-full overflow-hidden col-span-2">
+        <div class="rounded-full overflow-hidden col-span-12 hidden lg:block lg:col-span-2">
             <img class="rounded-full" src="/img/picofme.png" alt="Imagen de mi cara">
         </div>
-        <div class="col-span-10 px-2">
-            <h2 class="text-3xl font-bold dark:text-amber-200">Software developer</h2>
+        <div class="flex-col col-span-12 px-2 text-center justify-center lg:text-left lg:col-span-10">
+            <h2 class="text-5xl font-bold mb-2 dark:text-amber-200">Software developer</h2>
+            <p class="flex justify-center w-full lg:hidden mb-2"><img class="rounded-full w-52 " src="/img/picofme.png" alt="Imagen de mi cara"></p>
             <p><Fragment set:html={translations[selected_language]['my_description_p1']} /></p><br/>
             <p>{translations[selected_language]['my_description_p2']}</p>
-            <div class="flex gap-4 mt-4">
+            <div class="flex flex-col sm:flex-row  justify-self-center gap-4 mt-4">
                 <div class="w-32"><TagLink text="Github" link="https://github.com/vikpascual" icon="/img/icons/github.svg"></TagLink></div>
                 <div class="w-32"><TagLink text="Linkedin" link="https://www.linkedin.com/in/v%C3%ADctor-pascual-mu%C3%B1oz-48177111a" icon="/img/icons/linkedin.svg"></TagLink></div>
                 <div class="w-32"><TagLink text="CV" link="https://github.com/vikpascual" icon="/img/icons/pdf.svg"></TagLink></div>

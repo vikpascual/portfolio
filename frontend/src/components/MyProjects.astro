@@ -25,6 +25,7 @@ const { selected_language } = Astro.props;
             title={translations[selected_language][projects[key].title]} 
             description={translations[selected_language][projects[key].description]}
             tags={projects[key].tags}
+            tags_text={projects[key].tags_text}
             year={projects[key].year}
             index={index}
         />;

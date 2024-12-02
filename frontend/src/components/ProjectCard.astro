@@ -1,20 +1,23 @@
 ---
+import TagLink from './TagLink.astro'
+
 interface Props{
     image_url: string
     title: string
     description: string
     tags: Array<string>
+    tags_text: Array<string>
     year: number
     index: number
 
 }
-const { image_url, title, description,tags, year,index } = Astro.props;
+const { image_url, title, description,tags,tags_text, year,index } = Astro.props;
 let background = ((index+1) % 2) == 0 ? 'dark:bg-amber-100':' dark:bg-white'
 if(index == 0){
     background += ' rounded-t-2xl'
 }
+// return <img src={"/img/icons/"+image_name+".svg"} class="w-12 h-12" alt={image_name+" icon"}/>
 
-console.log(background)
 ---
 
 <article class={"grid grid-cols-3 gap-4 border-4 border-b-2  border-black p-6 dark:text-black " + background}>
@@ -25,10 +28,12 @@ console.log(background)
         <h3 class=" text-2xl font-bold">{title} ({year})</h3>
         <p>{description}</p>
         <p class="mt-2 flex flex-wrap gap-4">
-        {tags.map((image_name)=>{
-
-            return <img src={"/img/icons/"+image_name+".svg"} class="w-12 h-12" alt={image_name+" icon"}/>
-        })}
+        <div class="flex flex-wrap gap-4 mt-4">
+            {tags.map((image_name,index)=>{
+                return <div class="w-32"><TagLink text={tags_text[index]} link="https://www.python.org/" icon={"/img/icons/"+image_name+".svg"}></TagLink></div>
+            })}
+        </div>
+        
         </p>
     </div>
 

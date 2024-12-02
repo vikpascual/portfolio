@@ -1,9 +1,18 @@
 {
+    "inasolar": {
+        "title": "inasolar_title",
+        "image": "inasolar.png",
+        "description": "inasolar_description",
+        "tags": ["python", "plotly", "numpy", "nodejs", "ejs", "electronjs", "bootstrap", "sqlserver","scripting"],
+        "tags_text":["Python","DASH","Numpy","NodeJS","EJS","ElectronJS","Bootstrap","SQL Server","Scripting"],
+        "year": 2024
+    },
     "admin_oasis": {
         "title": "admin_oasis_title",
         "image": "admin_oasis.png",
         "description": "admin_oasis_description",
         "tags": ["php", "jquery", "mysql", "snmp", "ldap", "js", "html", "css"],
+        "tags_text":["PHP","JQuery","MySQL","SNMP","LDAP","JS","HTML","CSS"],
         "year": 2020
     },
     "q_learning_pong": {
@@ -11,6 +20,7 @@
         "image": "pong.png",
         "description": "q_learning_pong_description",
         "tags": ["python", "ia", "sockets"],
+        "tags_text":["Python","IA","Sockets"],
         "year": 2023
     },
     "space_simulator": {
@@ -18,6 +28,7 @@
         "image": "space_simulator.png",
         "description": "space_simulator_description",
         "tags": ["c++", "opengl"],
+        "tags_text":["C++","OpenGL"],
         "year": 2024
     },
     "planet_laser_locator": {
@@ -25,6 +36,7 @@
         "image": "planet_laser_locator.png",
         "description": "planet_laser_locator_description",
         "tags": ["python", "arduino", "api"],
+        "tags_text":["Python","Arduino","API"],
         "year": 2022
     },
     "lichess_bot": {
@@ -32,6 +44,7 @@
         "image": "lichess_bot.png",
         "description": "lichess_bot_description",
         "tags": ["python", "sqlite", "js", "html"],
+        "tags_text":["Python","SQLite","JS","HTML"],
         "year": 2022
     }
 }
