@@ -17,6 +17,7 @@ function setTheme(){
     }
 }
 window.onload = function(){
+    localStorage.theme = 'dark'
     setTheme()
 
     document.getElementById("ligth-theme-button").addEventListener("click", function (e) {

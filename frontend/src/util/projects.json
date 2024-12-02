@@ -15,6 +15,22 @@
         "tags_text":["PHP","JQuery","MySQL","SNMP","LDAP","JS","HTML","CSS"],
         "year": 2020
     },
+    "graph_finder": {
+        "title": "graph_finder_title",
+        "image": "graph_finder.png",
+        "description": "graph_finder_description",
+        "tags": ["react", "tailwind", "golang","mongodb" ],
+        "tags_text":["React","Tailwind","Golang","MongoDB"],
+        "year": 2025
+    },
+    "portfolio": {
+        "title": "portfolio_title",
+        "image": "portfolio.png",
+        "description": "portfolio_description",
+        "tags": ["astro", "tailwind", "nginx" ],
+        "tags_text":["Astro","Tailwind","Nginx"],
+        "year": 2024
+    },
     "q_learning_pong": {
         "title": "q_learning_pong_title",
         "image": "pong.png",

@@ -16,7 +16,7 @@ const { title, language } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
-		<script is:inline src="/js/theme.js"></script>
+		<script async is:inline src="/js/theme.js"></script>
 	</head>
 	<body class="px-8 py-4 lg:px-40 xl:px-64 2xl:px-96 bg-slate-200 dark:text-white dark:bg-stone-800">
 		<slot />

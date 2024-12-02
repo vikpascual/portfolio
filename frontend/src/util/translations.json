@@ -1,11 +1,15 @@
 {
     "es": {
-        "my_description_p1": "Mis habilidades abarcan desde la programación y diseño de aplicaciones web hasta la administración de sistemas, utilizando tecnologías como <span class='font-bold dark:text-amber-200'>Python</span>, <span class='font-bold dark:text-amber-200'>FastAPI</span>, <span class='font-bold dark:text-amber-200'>NodeJS</span>, <span class='font-bold dark:text-amber-200'>SQL Server</span>, y más.",
+        "my_description_p1": "Mis habilidades abarcan desde la programación y diseño de aplicaciones web hasta la administración de sistemas, utilizando tecnologías como <span class='font-bold dark:text-amber-200'>Python</span>, <span class='font-bold dark:text-amber-200'>FastAPI</span>, <span class='font-bold dark:text-amber-200'>NodeJS</span>, <span class='font-bold dark:text-amber-200'>React</span>, <span class='font-bold dark:text-amber-200'>Tailwind</span>, <span class='font-bold dark:text-amber-200'>SQL Server</span>, y más.",
         "my_description_p2": "Valoro los retos técnicos y siempre busco soluciones eficientes que aporten valor a los proyectos en los que participo.",
         "inasolar_title": "Inasolar",
-        "inasolar_description": "Aplicacion para gestionar la instalacion de distintas fuentes renovables, asi como predecir la demanda electrica y actuar en consecuencia.",
+        "inasolar_description": "Aplicación para gestionar la instalación de distintas fuentes renovables, asi como predecir la demanda eléctrica y actuar en consecuencia.",
         "admin_oasis_title": "Admin Oasis",
         "admin_oasis_description": "El objetivo de este proyecto es centralizar la mayor parte posible de la administración y monitorización de los equipos de la empresa, así como el registro de incidencias, desde una única aplicación web. De esta forma, es mucho más fácil para el administrador acceder a los equipos, comprobar que funcionan correctamente y, en caso de que se descubra un equipo que no esté funcionando adecuadamente, brindarle al administrador las herramientas necesarias para solucionarlo.",
+        "graph_finder_title": "Graph finder (En progreso)",
+        "graph_finder_description": "Aproximador de funciones mediante generación de grafos. La generación puede ser aleatoria, utilizando un árbol de búsqueda monte carlo(MCTS) o mediante algoritmos genéticos. El objetivo es que varios clientes generen grafos hasta que alguno encuentre la solución",
+        "portfolio_title": "Portfolio",
+        "portfolio_description": "Portfolio donde muestro lo que he estado haciendo estos años. Esta hecho para ser lo más rapido posible haciendo uso las mejores prácticas (Diseño responsive, traducciones i18n, tema claro-oscuro, lighthouse, SEO, etc...)",
         "q_learning_pong_title": "Q-Learning (IA) PONG",
         "q_learning_pong_description": "El juego de Pong implementado con 2 agentes controlados por inteligencia artificial. Ambos agentes trabajan juntos de manera cooperativa para evitar que la pelota pase de largo. Utilizamos el algoritmo Q-Learning para entrenar a los agentes en este juego. Para la comunicación de los agentes se ha utilizado una arquitectura cliente-servidor mediante sockets TCP.",
         "space_simulator_title": "Simulador vuelo espacial",
@@ -24,12 +28,16 @@
         "experience_2_description": "Mantenimiento frontend de varias webs, administración Windows Server y Active Directory, monitorización de la red local, solución de incidencias, configuración e instalación de RACK, instalación de equipos, ciberseguridad, creación de estrategias de copias de seguridad."
     },
     "en": {
-        "my_description_p1": "My skills range from programming and designing web applications to systems administration, using technologies such as <span class='font-bold dark:text-amber-200'>Python</span>, <span class='font-bold dark:text-amber-200'>FastAPI</span>, <span class='font-bold dark:text-amber-200'>NodeJS</span>, <span class='font-bold dark:text-amber-200'>SQL Server</span>, and more.",
+        "my_description_p1": "My skills range from programming and designing web applications to systems administration, using technologies such as <span class='font-bold dark:text-amber-200'>Python</span>, <span class='font-bold dark:text-amber-200'>FastAPI</span>, <span class='font-bold dark:text-amber-200'>NodeJS</span>, <span class='font-bold dark:text-amber-200'>React</span>, <span class='font-bold dark:text-amber-200'>Tailwind</span>, <span class='font-bold dark:text-amber-200'>SQL Server</span>, and more.",
         "my_description_p2": "I value technical challenges and always strive to find efficient solutions that add value to the projects I am involved in.",
         "inasolar_title": "Inasolar",
         "inasolar_description": "Application to manage the installation of different renewable sources, as well as predict the electrical demand and act accordingly.",
         "admin_oasis_title": "Admin Oasis",
         "admin_oasis_description": "The objective of this project is to centralize as much of the administration and monitoring of the company's equipment as possible, as well as incident logging, through a single web application. This way, it is much easier for the administrator to access the equipment, verify that it is working correctly, and, in case a malfunctioning device is detected, provide the administrator with the necessary tools to resolve it.",
+        "graph_finder_title": "Graph finder (In progress)",
+        "graph_finder_description": "Function approximator through graph generation. The generation can be random, using a Monte Carlo Tree Search (MCTS), or through genetic algorithms. The goal is for multiple clients to generate graphs until one finds the solution.",
+        "portfolio_title": "Portfolio",
+        "portfolio_description": "A portfolio showcasing what I have been working on over the years. It is designed to be as fast as possible, following best practices (responsive design, i18n translations, light-dark theme, Lighthouse, SEO, etc.).",
         "q_learning_pong_title": "Q-Learning (AI) PONG",
         "q_learning_pong_description": "The Pong game implemented with two AI-controlled agents. Both agents work together cooperatively to prevent the ball from passing through. We use the Q-Learning algorithm to train the agents in this game. For agent communication, a client-server architecture was implemented using TCP sockets.",
         "space_simulator_title": "Space Flight Simulator",
@@ -41,7 +49,7 @@
 
         "experience_1_company": "Institute of Energy Engineering (IIE) - Universitat Politècnica de València",
         "experience_1_position": "Research Technical Engineer - Infrastructure for Sustainable Electric Self-Supply with Renewable Sources in the Municipality of Aras de los Olmos (TED2021-130464B-I00)",
-        "experience_1_description": "Development of web applications, API design and implementation, algorithms, database design, scripting, and application deployment.",
+        "experience_1_description": "Programming and control of various renewable energy sources (solar, wind, etc.) for grid integration. Development of web applications, design and implementation of APIs, algorithms, database design and management, scripting, and application deployment.",
         
         "experience_2_company": "ODEC CENTER FOR CALCULATION AND COMPUTER APPLICATIONS, S.A.",
         "experience_2_position": "System Administrator in Dual Training",

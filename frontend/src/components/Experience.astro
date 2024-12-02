@@ -16,17 +16,18 @@ const translations: Translations = translations_data
 <section class="mt-8">
     <h2 class="text-5xl font-bold text-center mb-4 dark:text-amber-200 ">{selected_language == 'es' ? 'Experiencia laboral' : "Work Experience"}</h2>
     <article class="grid grid-cols-12 gap-4 mt-8 mb-8 border-4 rounded-xl border-black  p-6 bg-white  dark:text-black">
-        <div class="col-span-2 border-e-2 border-e-white text-center block">
-            <img src="/img/logo_iie.svg" alt=""><br/>
+        <div class="col-span-2 border-e-2 border-e-white text-center justify-self-center hidden sm:block">
+            <img class="w-32" src="/img/logo_iie.svg" alt=""><br/>
             <span>2024-12</span><br/>
             <span>|</span><br/>
             <span>2022-12</span>
         </div>
-        <div class="col-span-10">
+        <div class="col-span-12 sm:col-span-10">
             <h3 class="text-3xl font-bold">{translations[selected_language]['experience_1_company']}</h3>
-            <h2 class="text-xl font-bold mt-2 mb-2">{translations[selected_language]["experience_1_position"]}</h2>
+            <h2 class="text-xl font-bold mt-2 mb-2">{translations[selected_language]["experience_1_position"]} </h2>
+            <p class="text-xl sm:hidden"> (2022/12 - 2024/12)</p>
             <p>{translations[selected_language]["experience_1_description"]}</p>
-            <p>Link de interes: <a href="https://inasolar.es/desarrollo/">https://inasolar.es/desarrollo/</a></p>
+            <p><a href="https://inasolar.es/desarrollo/">https://inasolar.es/desarrollo/</a></p>
             <div class="flex flex-wrap gap-4 mt-4">
                 <div class="w-32"><TagLink text="Python" link="https://www.python.org/" icon="/img/icons/python.svg"></TagLink></div>
                 <div class="w-32"><TagLink text="FastAPI" link="https://fastapi.tiangolo.com/" icon="/img/icons/fastapi.svg"></TagLink></div>
@@ -44,25 +45,26 @@ const translations: Translations = translations_data
         </div>
     </article>
     <article class="grid grid-cols-12 gap-4 border-4 border-black rounded-xl p-6 bg-white  text-black">
-        <div class="col-span-2 border-e-2 border-e-white text-center block">
-            <img class="w-1/2" src="/img/odec_logo.png" alt=""><br/>
+        <div class="col-span-2 border-e-2 border-e-white text-center justify-self-center hidden sm:block">
+            <img class="w-32" src="/img/odec_logo.png" alt=""><br/>
             <span>2020-05</span><br/>
             <span>|</span><br/>
             <span>2019-09</span>
         </div>
-        <div class="col-span-10">
+        <div class="col-span-12 sm:col-span-10">
             <h3 class="text-3xl font-bold">{translations[selected_language]['experience_2_company']}</h3>
             <h2 class="text-xl font-bold mt-2 mb-2">{translations[selected_language]["experience_2_position"]}</h2>
+            <p class="text-xl sm:hidden"> (2019/09 - 2020/06)</p>
             <p>{translations[selected_language]["experience_2_description"]}</p>
             <div class="flex flex-wrap gap-4 mt-4">
-                <div class="w-32"><TagLink text="Liferay" link="https://www.python.org/" icon="/img/icons/liferay.svg"></TagLink></div>
-                <div class="w-32"><TagLink text="Linux" link="https://www.python.org/" icon="/img/icons/linux.svg"></TagLink></div>
-                <div class="w-32"><TagLink text="W. Server" link="https://www.python.org/" icon="/img/icons/windowsserver.svg"></TagLink></div>
-                <div class="w-32"><TagLink text="WMI" link="https://www.python.org/" icon="/img/icons/windowsserver.svg"></TagLink></div>
-                <div class="w-32"><TagLink text="LDAP" link="https://www.python.org/" icon="/img/icons/ldap.svg"></TagLink></div>
-                <div class="w-32"><TagLink text="vSphere" link="https://www.python.org/" icon="/img/icons/vmware.svg"></TagLink></div>
-                <div class="w-32"><TagLink text="ESX" link="https://www.python.org/" icon="/img/icons/vmware.svg"></TagLink></div>
-                <div class="w-32"><TagLink text="Scripting" link="https://fastapi.tiangolo.com/" icon="/img/icons/scripting.svg"></TagLink></div>
+                <div class="w-32"><TagLink text="Liferay" link="https://www.liferay.com/" icon="/img/icons/liferay.svg"></TagLink></div>
+                <div class="w-32"><TagLink text="Linux" link="https://www.linux.org/" icon="/img/icons/linux.svg"></TagLink></div>
+                <div class="w-32"><TagLink text="W. Server" link="https://www.microsoft.com/es-es/windows-server" icon="/img/icons/windowsserver.svg"></TagLink></div>
+                <div class="w-32"><TagLink text="WMI" link="https://es.wikipedia.org/wiki/Windows_Management_Instrumentation" icon="/img/icons/windowsserver.svg"></TagLink></div>
+                <div class="w-32"><TagLink text="LDAP" link="https://es.wikipedia.org/wiki/Protocolo_ligero_de_acceso_a_directorios" icon="/img/icons/ldap.svg"></TagLink></div>
+                <div class="w-32"><TagLink text="vSphere" link="https://docs.vmware.com/es/VMware-vSphere/index.html" icon="/img/icons/vmware.svg"></TagLink></div>
+                <div class="w-32"><TagLink text="ESXi" link="https://es.wikipedia.org/wiki/VMware_ESXi" icon="/img/icons/vmware.svg"></TagLink></div>
+                <div class="w-32"><TagLink text="Scripting" link="https://es.wikipedia.org/wiki/Script" icon="/img/icons/scripting.svg"></TagLink></div>
 
             </div>
         </div>
