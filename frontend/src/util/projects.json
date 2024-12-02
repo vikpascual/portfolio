@@ -1,7 +1,7 @@
 {
     "inasolar": {
         "title": "inasolar_title",
-        "image": "inasolar.png",
+        "image": "inasolar.webp",
         "description": "inasolar_description",
         "tags": ["python", "plotly", "numpy", "nodejs", "ejs", "electronjs", "bootstrap", "sqlserver","scripting"],
         "tags_text":["Python","DASH","Numpy","NodeJS","EJS","ElectronJS","Bootstrap","SQL Server","Scripting"],
@@ -9,7 +9,7 @@
     },
     "admin_oasis": {
         "title": "admin_oasis_title",
-        "image": "admin_oasis.png",
+        "image": "admin_oasis.webp",
         "description": "admin_oasis_description",
         "tags": ["php", "jquery", "mysql", "snmp", "ldap", "js", "html", "css"],
         "tags_text":["PHP","JQuery","MySQL","SNMP","LDAP","JS","HTML","CSS"],
@@ -17,7 +17,7 @@
     },
     "graph_finder": {
         "title": "graph_finder_title",
-        "image": "graph_finder.png",
+        "image": "graph_finder.webp",
         "description": "graph_finder_description",
         "tags": ["react", "tailwind", "golang","mongodb" ],
         "tags_text":["React","Tailwind","Golang","MongoDB"],
@@ -25,15 +25,15 @@
     },
     "portfolio": {
         "title": "portfolio_title",
-        "image": "portfolio.png",
+        "image": "portfolio.webp",
         "description": "portfolio_description",
-        "tags": ["astro", "tailwind", "nginx" ],
-        "tags_text":["Astro","Tailwind","Nginx"],
+        "tags": ["astro", "typescript","tailwind", "nginx" ],
+        "tags_text":["Astro","Typescript","Tailwind","Nginx"],
         "year": 2024
     },
     "q_learning_pong": {
         "title": "q_learning_pong_title",
-        "image": "pong.png",
+        "image": "pong.webp",
         "description": "q_learning_pong_description",
         "tags": ["python", "ia", "sockets"],
         "tags_text":["Python","IA","Sockets"],
@@ -41,7 +41,7 @@
     },
     "space_simulator": {
         "title": "space_simulator_title",
-        "image": "space_simulator.png",
+        "image": "space_simulator.webp",
         "description": "space_simulator_description",
         "tags": ["c++", "opengl"],
         "tags_text":["C++","OpenGL"],
@@ -49,7 +49,7 @@
     },
     "planet_laser_locator": {
         "title": "planet_laser_locator_title",
-        "image": "planet_laser_locator.png",
+        "image": "planet_laser_locator.webp",
         "description": "planet_laser_locator_description",
         "tags": ["python", "arduino", "api"],
         "tags_text":["Python","Arduino","API"],
@@ -57,7 +57,7 @@
     },
     "lichess_bot": {
         "title": "lichess_bot_title",
-        "image": "lichess_bot.png",
+        "image": "lichess_bot.webp",
         "description": "lichess_bot_description",
         "tags": ["python", "sqlite", "js", "html"],
         "tags_text":["Python","SQLite","JS","HTML"],
