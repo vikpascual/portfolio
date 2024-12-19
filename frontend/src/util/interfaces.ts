@@ -11,6 +11,7 @@ export interface Project {
     image: string;
     title: string  ; // Solo claves válidas de LocalizationData
     description: string; // Solo claves válidas de LocalizationData
+    links: {[key: string]: string};
     tags: string[];
     tags_text: string[];
     year: number;

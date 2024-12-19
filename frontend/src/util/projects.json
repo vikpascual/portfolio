@@ -3,6 +3,9 @@
         "title": "inasolar_title",
         "image": "inasolar.webp",
         "description": "inasolar_description",
+        "links": {
+            "web": "https://inasolar.es/desarrollo"
+        },
         "tags": ["python", "plotly", "numpy", "nodejs", "ejs", "electronjs", "bootstrap", "sqlserver","scripting"],
         "tags_text":["Python","DASH","Numpy","NodeJS","EJS","ElectronJS","Bootstrap","SQL Server","Scripting"],
         "year": 2024
@@ -11,6 +14,10 @@
         "title": "admin_oasis_title",
         "image": "admin_oasis.webp",
         "description": "admin_oasis_description",
+        "links": {
+            "github": "https://inasolar.es/desarrollo",
+            "pdf": "https://github.com/vikpascual/Admin-Oasis/blob/master/MEMORIA.pdf"
+        },
         "tags": ["php", "jquery", "mysql", "snmp", "ldap", "js", "html", "css"],
         "tags_text":["PHP","JQuery","MySQL","SNMP","LDAP","JS","HTML","CSS"],
         "year": 2020
@@ -19,6 +26,9 @@
         "title": "graph_finder_title",
         "image": "graph_finder.webp",
         "description": "graph_finder_description",
+        "links": {
+            "web": "#"
+        },
         "tags": ["react", "tailwind", "golang","mongodb" ],
         "tags_text":["React","Tailwind","Golang","MongoDB"],
         "year": 2025
@@ -27,6 +37,9 @@
         "title": "portfolio_title",
         "image": "portfolio.webp",
         "description": "portfolio_description",
+        "links": {
+            "github": "https://github.com/vikpascual/portfolio"
+        },
         "tags": ["astro", "typescript","tailwind", "nginx" ],
         "tags_text":["Astro","Typescript","Tailwind","Nginx"],
         "year": 2024
@@ -35,6 +48,11 @@
         "title": "q_learning_pong_title",
         "image": "pong.webp",
         "description": "q_learning_pong_description",
+        "links": {
+            "youtube": "https://youtu.be/HKUVfGaPp1s?si=GgQsjweb4hH48iHz&t=489",
+            "github": "https://github.com/vikpascual/Q-learning-Pong",
+            "pdf": "https://docs.google.com/document/d/1Vm6UANTGDush-LgdnVECpx2fiqqu0NwG7s_8TA-_Tq0/edit?usp=sharing"
+        },
         "tags": ["python", "ia", "sockets"],
         "tags_text":["Python","IA","Sockets"],
         "year": 2023
@@ -43,6 +61,10 @@
         "title": "space_simulator_title",
         "image": "space_simulator.webp",
         "description": "space_simulator_description",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=s9MXc5UuTJ0",
+            "github": "https://github.com/vikpascual/nave_espacial"
+        },
         "tags": ["c++", "opengl"],
         "tags_text":["C++","OpenGL"],
         "year": 2024
@@ -51,6 +73,9 @@
         "title": "planet_laser_locator_title",
         "image": "planet_laser_locator.webp",
         "description": "planet_laser_locator_description",
+        "links": {
+            "github": "https://github.com/vikpascual/Laser-planet-locator"
+        },
         "tags": ["python", "arduino", "api"],
         "tags_text":["Python","Arduino","API"],
         "year": 2022
@@ -59,6 +84,9 @@
         "title": "lichess_bot_title",
         "image": "lichess_bot.webp",
         "description": "lichess_bot_description",
+        "links": {
+            "github": "https://github.com/vikpascual/BOT-Lichess"
+        },
         "tags": ["python", "sqlite", "js", "html"],
         "tags_text":["Python","SQLite","JS","HTML"],
         "year": 2022

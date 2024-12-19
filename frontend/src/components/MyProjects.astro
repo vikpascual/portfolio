@@ -24,6 +24,7 @@ const { selected_language } = Astro.props;
             image_url={projects[key].image} 
             title={translations[selected_language][projects[key].title]} 
             description={translations[selected_language][projects[key].description]}
+            links={projects[key].links}
             tags={projects[key].tags}
             tags_text={projects[key].tags_text}
             year={projects[key].year}

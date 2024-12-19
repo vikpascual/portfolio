@@ -5,24 +5,34 @@ interface Props{
     image_url: string
     title: string
     description: string
+    links: {[key: string]: string};
     tags: Array<string>
     tags_text: Array<string>
     year: number
     index: number
 
 }
-const { image_url, title, description,tags,tags_text, year,index } = Astro.props;
+const { image_url, title, description, links, tags,tags_text, year,index } = Astro.props;
 let background = ((index+1) % 2) == 0 ? 'dark:bg-amber-100':' dark:bg-white'
 if(index == 0){
     background += ' rounded-t-2xl'
 }
-// return <img src={"/img/icons/"+image_name+".svg"} class="w-12 h-12" alt={image_name+" icon"}/>
+
+function capitalizeFirstLetter(val: string): string{
+    return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+}
 
 ---
 
 <article class={"grid grid-cols-3 gap-4 border-4 border-b-2 bg-white border-black p-6 dark:text-black " + background}>
     <div class="hidden lg:block">
         <img loading="lazy" src={"/img/"+image_url} alt="">
+        <span class="text-xl font-bold mt-1">Links:</span><br/>
+        <div class="flex flex-wrap gap-4 mt-1">
+            {Object.keys(links).map((key)=>{
+                return <div class="w-32"><TagLink text={capitalizeFirstLetter(key)} link={links[key]} icon={"/img/icons/"+key+".svg"}></TagLink></div>
+            })}
+        </div>
     </div>
     <div class="flex-col col-span-3 lg:col-span-2">
         <h3 class=" text-2xl font-bold">{title} ({year})</h3>
