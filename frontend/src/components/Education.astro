@@ -1,0 +1,41 @@
+---
+import translations_data from '../util/translations.json';
+
+import type { Translations } from "../util/interfaces";
+import TagLink from './TagLink.astro';
+
+type Language = keyof Translations;
+interface Props{
+    selected_language: Language
+}
+
+const { selected_language } = Astro.props;
+const translations: Translations = translations_data
+---
+<section class="mt-8">
+    <h2 class="text-5xl font-bold text-center mb-4 dark:text-amber-200 ">{selected_language == 'es' ? 'Estudios' : "Education"}</h2>
+    <article class="grid grid-cols-12 gap-4 mt-8 mb-8 border-4 rounded-xl border-black  p-6 bg-white  dark:text-black">
+        <div class="col-span-2 border-e-2 border-e-white text-center justify-self-center hidden sm:block">
+            <img class="w-32" src="/img/upv_logo.svg" alt=""><br/>
+            <span>2025-06</span><br/>
+            <span>|</span><br/>
+            <span>2020-09</span>
+        </div>
+        <div class="col-span-12 sm:col-span-10">
+            <h3 class="text-3xl font-bold mb-4">{translations[selected_language]['education_1_title']}</h3>
+            <p>{translations[selected_language]["education_1_description"]}</p>
+        </div>
+    </article>
+    <article class="grid grid-cols-12 gap-4 border-4 border-black rounded-xl p-6 bg-white  text-black">
+        <div class="col-span-2 border-e-2 border-e-white text-center justify-self-center hidden sm:block">
+            <img width="208" class="w-28" src="/img/abastos_logo.webp" alt="">
+            <span>2020-06</span><br/>
+            <span>|</span><br/>
+            <span>2018-09</span>
+        </div>
+        <div class="col-span-12 sm:col-span-10">
+            <h3 class="text-3xl font-bold mb-4">{translations[selected_language]['education_2_title']}</h3>
+            <p>{translations[selected_language]["education_2_description"]}</p>
+        </div>
+    </article>
+</section>

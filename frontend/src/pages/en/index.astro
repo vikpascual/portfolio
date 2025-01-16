@@ -5,6 +5,7 @@ import MyDescription from '../../components/MyDescription.astro';
 import MyProjects from '../../components/MyProjects.astro';
 import Experience from '../../components/Experience.astro';
 import Footer from '../../components/Footer.astro';
+import Education from '../../components/Education.astro';
 
 const default_language = "en"
 ---
@@ -14,6 +15,7 @@ const default_language = "en"
 	<main>
 		<MyDescription selected_language={default_language}></MyDescription>
 		<Experience selected_language={default_language}></Experience>
+		<Education selected_language={default_language}></Education>
 		<MyProjects selected_language={default_language}></MyProjects>
 	</main>
 	<Footer></Footer>

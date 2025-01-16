@@ -25,7 +25,14 @@
         
         "experience_2_company": "ODEC CENTRO DE CÁLCULO Y APLICACIONES INFORMÁTICAS, S.A.",
         "experience_2_position": "Administrador de sistemas en formación dual",
-        "experience_2_description": "Mantenimiento frontend de varias webs, administración Windows Server y Active Directory, monitorización de la red local, solución de incidencias, configuración e instalación de RACK, instalación de equipos, ciberseguridad, creación de estrategias de copias de seguridad."
+        "experience_2_description": "Mantenimiento frontend de varias webs, administración Windows Server y Active Directory, monitorización de la red local, solución de incidencias, configuración e instalación de RACK, instalación de equipos, ciberseguridad, creación de estrategias de copias de seguridad.",
+        
+        "education_1_title": "Ingeniería Informática (Rama Computación) - Universitat Politècnica de València",
+        "education_1_description": "Grado en Ingeniería Informática con especialidad en Computación.",
+
+        "education_2_title": "Técnico Superior en Administración de Sistemas Informáticos en Red - IES Abastos",
+        "education_2_description": "Curso realizado en modalidad dual, es decir, media jornada en la empresa y la otra media jornada en clase durante 6 meses"
+    
     },
     "en": {
         "my_description_p1": "My skills range from programming and designing web applications to systems administration, using technologies such as <span class='font-bold dark:text-amber-200'>Python</span>, <span class='font-bold dark:text-amber-200'>FastAPI</span>, <span class='font-bold dark:text-amber-200'>NodeJS</span>, <span class='font-bold dark:text-amber-200'>React</span>, <span class='font-bold dark:text-amber-200'>Tailwind</span>, <span class='font-bold dark:text-amber-200'>SQL Server</span>, and more.",
@@ -53,6 +60,11 @@
         
         "experience_2_company": "ODEC CENTER FOR CALCULATION AND COMPUTER APPLICATIONS, S.A.",
         "experience_2_position": "System Administrator in Dual Training",
-        "experience_2_description": "Frontend maintenance of various websites, Windows Server and Active Directory administration, local network monitoring, troubleshooting, RACK setup and installation, equipment installation, cybersecurity, and creation of backup strategies."
+        "experience_2_description": "Frontend maintenance of various websites, Windows Server and Active Directory administration, local network monitoring, troubleshooting, RACK setup and installation, equipment installation, cybersecurity, and creation of backup strategies.",
+
+        "education_1_title": "Computer Engineering (Computing Branch) - Universitat Politècnica de València",
+        "education_1_description": "Degree in Computer Engineering with a specialization in Computing.",
+        "education_2_title": "Higher Technician in Network System Administration - IES Abastos",
+        "education_2_description": "Course carried out in dual mode, that is, half a day at the company and the other half day in class for 6 months."
     }
 }
