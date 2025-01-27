@@ -44,11 +44,13 @@ function showImage(image_url){
         image.src = image_url;
     }
     imageview?.classList.remove("hidden");
+    imageview?.classList.add("flex");
 }
 //Esconder la imagen al dar click en cualquier lugar del contenedor
 function hideImage(){
     let imageview = document.getElementById("imageview-section");
     imageview?.classList.add("hidden");
+    imageview?.classList.remove("flex");
 }
 //Seteamos los eventos en las imagenes
 document.addEventListener("DOMContentLoaded", function(){
