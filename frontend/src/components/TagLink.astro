@@ -10,6 +10,6 @@ const { text, link, icon } = Astro.props;
 ---
 <a class="w-auto align-middle" href={link}>
     <div class="bg-amber-200 hover:bg-amber-300 border-4 border-black p-1 rounded-xl text-center text-black w-full align-middle">
-        <img src={icon} class="inline w-6 h-6 align-middle aspect-square" alt={text+" icon"}><span class="align-middle"> {text}</span>
+        <img src={icon} class="inline w-6 h-6 align-middle aspect-square no-click" alt={text+" icon"}><span class="align-middle"> {text}</span>
     </div>
 </a>

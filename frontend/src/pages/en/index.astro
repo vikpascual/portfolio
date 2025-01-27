@@ -6,11 +6,13 @@ import MyProjects from '../../components/MyProjects.astro';
 import Experience from '../../components/Experience.astro';
 import Footer from '../../components/Footer.astro';
 import Education from '../../components/Education.astro';
+import ImageView from '../../components/ImageView.astro';
 
 const default_language = "en"
 ---
 
 <Layout title="Portfolio" language={default_language}>
+	<ImageView></ImageView>
 	<Header selected_language={default_language}></Header>
 	<main>
 		<MyDescription selected_language={default_language}></MyDescription>

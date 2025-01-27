@@ -1,7 +1,7 @@
 {
     "es": {
         "my_description_p1": "Mis habilidades abarcan desde la programación y diseño de aplicaciones web hasta la administración de sistemas, utilizando tecnologías como <span class='font-bold dark:text-amber-200'>Python</span>, <span class='font-bold dark:text-amber-200'>FastAPI</span>, <span class='font-bold dark:text-amber-200'>NodeJS</span>, <span class='font-bold dark:text-amber-200'>React</span>, <span class='font-bold dark:text-amber-200'>Tailwind</span>, <span class='font-bold dark:text-amber-200'>SQL Server</span>, y más.",
-        "my_description_p2": "Valoro los retos técnicos y siempre busco soluciones eficientes que aporten valor a los proyectos en los que participo.",
+        "my_description_p2": "",
         "inasolar_title": "Inasolar",
         "inasolar_description": "Aplicación para gestionar la instalación de distintas fuentes renovables, así como predecir la demanda eléctrica y actuar en consecuencia.",
         "admin_oasis_title": "Admin Oasis",
@@ -36,7 +36,7 @@
     },
     "en": {
         "my_description_p1": "My skills range from programming and designing web applications to systems administration, using technologies such as <span class='font-bold dark:text-amber-200'>Python</span>, <span class='font-bold dark:text-amber-200'>FastAPI</span>, <span class='font-bold dark:text-amber-200'>NodeJS</span>, <span class='font-bold dark:text-amber-200'>React</span>, <span class='font-bold dark:text-amber-200'>Tailwind</span>, <span class='font-bold dark:text-amber-200'>SQL Server</span>, and more.",
-        "my_description_p2": "I value technical challenges and always strive to find efficient solutions that add value to the projects I am involved in.",
+        "my_description_p2": "",
         "inasolar_title": "Inasolar",
         "inasolar_description": "Application to manage the installation of different renewable sources, as well as predict the electrical demand and act accordingly.",
         "admin_oasis_title": "Admin Oasis",
